@@ -3,3 +3,53 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow: hidden;
+}
+
+.jpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jpage .section {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-controll {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-controll button {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  margin: 4px 0;
+  background-color: #fff;
+}
+
+.nav-controll button.active {
+  background-color: black;
+}
+
+.nav-controll-animation-opening-up {
+  animation: opening-up 0.7s ease-out;
+}
+
+@keyframes opening-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
