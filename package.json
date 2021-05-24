@@ -1,9 +1,9 @@
 {
   "name": "jpage",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/pedro-isacss/jpage.git"
   },
-  "author": "",
+  "author": "Pedro Isac",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pedro-isacss/jpage/issues"
