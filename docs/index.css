@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+
+:root {
+  --theme: #ffcc00;
+  --white: #eee;
+  --black: #0a0a0a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: linear-gradient(45deg, #d4aa00, var(--theme));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.header h1 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.header p {
+  text-transform: uppercase;
+  color: var(--black);
+  font-weight: 600;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.header .badges {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header .badges img {
+  margin: 0 4px;
+}
+
+.header .links {
+  margin-top: 24px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .links a {
+  background-color: var(--black);
+  text-decoration: none;
+  text-align: center;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 4px;
+  margin: 0 4px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.header .links a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+  .header .links {
+    flex-direction: column;
+  }
+  .header .links a {
+    margin: 4px 0;
+  }
+  .header .badges img {
+    margin: 4px 4px;
+  }
+}
