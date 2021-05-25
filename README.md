@@ -15,11 +15,14 @@ At the end of the body of your html paste:
 ## How to use
 ```html
 <div class="jpage">
-    <div class="section">
-      <h1>Section 1</h1>
+  <div class="section">
+    <div class="slider">
+      <div class="slid"></div>
+      <div class="slid"></div>
     </div>
-    <div class="section">
-      <h1>Section 2</h1>
-    </div>
+  </div>
+  <div class="section">
+    <h1>Section 2</h1>
+  </div>
 </div>
 ```
