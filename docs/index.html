@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@0.3/lib/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@0.4/lib/index.css">
   <link rel="stylesheet" href="index.css">
   <title>JPage - Create dynamic, fast and amazing pages 😉</title>
   <meta name="description" content="Create dynamic, fast and amazing pages 😉">
@@ -14,7 +14,7 @@
 
 <body>
   <div class="jpage">
-    <!-- HEADER -->
+    <!-- === Header === -->
     <header class="section header">
       <h1>JPage</h1>
       <p>Create dynamic, fast and amazing pages 😉</p>
@@ -25,17 +25,47 @@
         <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pedro-isacss/jpage?style=social">
       </div>
       <div class="links">
-        <a href="https://github.com/pedro-isacss/jpage">GitHub</a>
-        <a href="#">Docs</a>
-        <a href="#">Become a sponsor</a>
+        <a href="https://github.com/pedro-isacss/jpage" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Docs</a>
+        <a href="#" target="_blank">Become a sponsor</a>
       </div>
     </header>
-    <!-- DOCS -->
+    <!-- === Docs === -->
     <section class="section docs">
-      <h1>Docs</h1>
+      <div class="slider">
+        <!-- === Get started === -->
+        <div class="slid col-2">
+          <div>
+            <h1>Get started</h1>
+            <p>Import JPage JavaScript and CSS into your code</p>
+          </div>
+          <div>
+            <pre>
+              <button onclick="copyText('cdn-css')">
+                <img src="./icons/clipboard.svg" alt="copy">
+              </button>
+<code class="cdn-css">
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"&gt;
+</code>
+</pre>
+            <pre>
+              <button>
+                <img src="./icons/clipboard.svg" alt="copy">
+              </button>
+<code>
+  &lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt&lt;/script&gt
+</code>
+</pre>
+          </div>
+        </div>
+        <!-- === Basic usage === -->
+        <div class="slid" style="background-color: blueviolet;">
+
+        </div>
+      </div>
     </section>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/jpage@0.3/lib/index.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jpage@0.4.1/lib/index.js" type="module"></script>
   <script src="./index.js"></script>
 </body>
 

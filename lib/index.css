@@ -1,3 +1,4 @@
+/* Geral */
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +16,7 @@ body {
   flex-direction: column;
 }
 
+/* Scroller */
 .jpage .section {
   width: 100%;
   height: 100vh;
@@ -22,7 +24,7 @@ body {
 
 .nav-control {
   position: fixed;
-  right: 24px;
+  right: 8px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -53,3 +55,43 @@ body {
   transition: all 0.7s ease;
   margin: 6px;
 }
+
+/* Slider */
+.jpage .section .slider {
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.jpage .section .slider .slid {
+  min-width: 100vw;
+  height: 100vh;
+}
+
+.jpage .section .slider .slider-control {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 50%;
+  padding: 0 32px;
+}
+
+.jpage .section .slider .right-slider-btn,
+.jpage .section .slider .left-slider-btn {
+  /* position: sticky; */
+  /* top: 50%;
+  transform: translateY(-50%); */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* .jpage .section .slider .right-slider-btn {
+  right: 32px;
+}
+
+.jpage .section .slider .left-slider-btn {
+  left: 32px;
+} */

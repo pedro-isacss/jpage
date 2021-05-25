@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
 
+/* === Geral === */
+
 :root {
   --theme: #ffcc00;
+  --theme2: #b309a6;
   --white: #eee;
   --black: #0a0a0a;
 }
@@ -13,6 +16,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* === Header === */
 .header {
   background: linear-gradient(45deg, #d4aa00, var(--theme));
   display: flex;
@@ -73,6 +77,66 @@
   opacity: 0.9;
 }
 
+/* === Docs === */
+.docs .col-2 {
+  background-color: var(--theme2);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+
+.docs .col-2 h1 {
+  letter-spacing: 0.2rem;
+}
+
+.docs .col-2 p {
+  margin-top: 24px;
+}
+
+.docs .col-2 pre {
+  background-color: var(--black);
+  overflow: auto;
+  width: 70%;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 24px auto;
+  position: relative;
+}
+
+.docs .col-2 pre button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #333333;
+  border-radius: 2px;
+  padding: 4px;
+  opacity: 0;
+  border: none;
+}
+
+.docs .col-2 pre:hover button {
+  opacity: 1;
+  transition: all 0.7s ease-in;
+}
+
+.docs .col-2 pre button:hover {
+  opacity: 1;
+}
+
+.docs .col-2 pre button img {
+  width: 16px;
+}
+
+/* === Responsive === */
 @media (max-width: 640px) {
   .header .links {
     flex-direction: column;
