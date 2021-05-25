@@ -80,18 +80,40 @@ body {
 
 .jpage .section .slider .right-slider-btn,
 .jpage .section .slider .left-slider-btn {
-  /* position: sticky; */
-  /* top: 50%;
-  transform: translateY(-50%); */
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-/* .jpage .section .slider .right-slider-btn {
-  right: 32px;
+.jpage .section .slider .nav-slider {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.jpage .section .slider .left-slider-btn {
-  left: 32px;
-} */
+.jpage .section .slider .nav-slider button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  margin: 0 4px;
+  background-color: #fff;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.jpage .section .slider .nav-slider button.active-slid {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  transition: all 0.7s ease;
+  margin: 6px;
+}
