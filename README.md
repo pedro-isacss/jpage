@@ -17,8 +17,12 @@ At the end of the body of your html paste:
 <div class="jpage">
   <div class="section">
     <div class="slider">
-      <div class="slid"></div>
-      <div class="slid"></div>
+      <div class="slid">
+        <h1>Slid 1</h1>
+      </div>
+      <div class="slid">
+        <h1>Slid 2</h1>
+      </div>
     </div>
   </div>
   <div class="section">
