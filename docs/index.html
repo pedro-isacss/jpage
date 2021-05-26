@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@0.5.1/lib/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@0.5.2/lib/index.css">
   <link rel="stylesheet" href="index.css">
   <title>JPage - Create dynamic, fast and amazing pages 😉</title>
   <meta name="description" content="Create dynamic, fast and amazing pages 😉">
@@ -37,25 +37,34 @@
         <div class="slide col-2">
           <div>
             <h1>Get started</h1>
-            <p>Import JPage JavaScript and CSS into your code</p>
+            <p>
+              Import JPage JavaScript and CSS into your code. Then replace <strong>`{version}`</strong> with the desired
+              version.
+            </p>
+            <p>
+              You can consult all versions of JPage by clicking <a target="_blank"
+                href="https://www.npmjs.com/package/jpage">here</a>.
+            </p>
           </div>
           <div>
-            <pre>
-              <button onclick="copyText('cdn-css')">
+            <div class="code">
+              <button onclick="copyText(0)">
+                Copy
                 <img src="./icons/clipboard.svg" alt="copy">
               </button>
-<code class="cdn-css">
-  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"&gt;
-</code>
+              <pre>
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"&gt;
 </pre>
-            <pre>
-              <button>
+            </div>
+            <div class="code">
+              <button onclick="copyText(1)">
+                Copy
                 <img src="./icons/clipboard.svg" alt="copy">
               </button>
-<code>
-  &lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt&lt;/script&gt
-</code>
+              <pre>
+&lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt&lt;/script&gt
 </pre>
+            </div>
           </div>
         </div>
         <!-- === Basic usage === -->
@@ -65,7 +74,7 @@
       </div>
     </section>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/jpage@0.5.1/lib/index.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jpage@0.5.2/lib/index.js" type="module"></script>
   <script src="./index.js"></script>
 </body>
 

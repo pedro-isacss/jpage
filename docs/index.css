@@ -80,63 +80,92 @@
 /* === Docs === */
 .docs .col-2 {
   background-color: var(--theme2);
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: var(--white);
+  padding: 32px;
+}
+
+.docs .col-2 div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .docs .col-2 h1 {
   letter-spacing: 0.2rem;
+  font-size: 2.2rem;
 }
 
 .docs .col-2 p {
   margin-top: 24px;
+  width: 100%;
+  max-width: 400px;
 }
 
-.docs .col-2 pre {
+.docs .col-2 a {
+  color: var(--white);
+  font-weight: 800;
+}
+
+.docs .col-2 .code {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 24px auto;
+}
+
+.docs .col-2 .code pre {
   background-color: var(--black);
   overflow: auto;
-  width: 70%;
-  padding: 4px;
-  border-radius: 4px;
-  margin: 24px auto;
-  position: relative;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px 0 4px 4px;
 }
 
-.docs .col-2 pre button {
+.docs .col-2 .code button {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 24px;
+  top: -24px;
+  right: 0;
+  z-index: 2;
   height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   background-color: #333333;
-  border-radius: 2px;
-  padding: 4px;
-  opacity: 0;
+  border-radius: 2px 2px 0 2px;
+  padding: 6px;
   border: none;
+  color: var(--white);
 }
 
-.docs .col-2 pre:hover button {
-  opacity: 1;
-  transition: all 0.7s ease-in;
+.docs .col-2 .code button:hover {
+  opacity: 0.9;
 }
 
-.docs .col-2 pre button:hover {
-  opacity: 1;
-}
-
-.docs .col-2 pre button img {
+.docs .col-2 .code button img {
   width: 16px;
+  margin-left: 8px;
 }
 
 /* === Responsive === */
+@media (max-width: 940px) {
+  .docs .col-2 {
+    flex-direction: column;
+  }
+  .docs .col-2 div {
+    width: 100%;
+  }
+  .docs .col-2 div:nth-child(2) {
+    margin-top: 24px;
+  }
+}
+
 @media (max-width: 640px) {
   .header .links {
     flex-direction: column;
@@ -146,5 +175,14 @@
   }
   .header .badges img {
     margin: 4px 4px;
+  }
+}
+
+@media (max-width: 530px) {
+  .slider-control {
+    display: none !important;
+  }
+  .docs .col-2 .code {
+    max-width: 300px;
   }
 }
