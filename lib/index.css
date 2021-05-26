@@ -63,7 +63,7 @@ body {
   position: relative;
 }
 
-.jpage .section .slider .slid {
+.jpage .section .slider .slide {
   min-width: 100vw;
   height: 100vh;
 }
@@ -110,7 +110,7 @@ body {
   cursor: pointer;
 }
 
-.jpage .section .slider .nav-slider button.active-slid {
+.jpage .section .slider .nav-slider button.active-slide {
   width: 12px;
   height: 12px;
   opacity: 1;
