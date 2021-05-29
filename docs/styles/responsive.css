@@ -11,13 +11,13 @@
 }
 
 @media (max-width: 640px) {
-  .header .links {
+  .section1 .links {
     flex-direction: column;
   }
-  .header .links a {
+  .section1 .links a {
     margin: 4px 0;
   }
-  .header .badges img {
+  .section1 .badges img {
     margin: 4px 4px;
   }
 }
