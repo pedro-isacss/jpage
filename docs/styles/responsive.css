@@ -1,0 +1,32 @@
+@media (max-width: 940px) {
+  .section2 .col-2 {
+    flex-direction: column;
+  }
+  .section2 .col-2 div {
+    width: 100%;
+  }
+  .section2 .col-2 div:nth-child(2) {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header .links {
+    flex-direction: column;
+  }
+  .header .links a {
+    margin: 4px 0;
+  }
+  .header .badges img {
+    margin: 4px 4px;
+  }
+}
+
+@media (max-width: 530px) {
+  .slider-control {
+    display: none !important;
+  }
+  .section2 .col-2 .code {
+    max-width: 300px;
+  }
+}

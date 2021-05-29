@@ -15,7 +15,7 @@
 <body>
   <div class="jpage">
     <!-- === Header === -->
-    <header class="section header">
+    <header class="section section1" style="background-color: #dc143c;">
       <h1>JPage</h1>
       <p>Create dynamic, fast and amazing pages 😉</p>
       <div class="badges">
@@ -26,12 +26,12 @@
       </div>
       <div class="links">
         <a href="https://github.com/pedro-isacss/jpage" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Docs</a>
+        <a href="https://github.com/pedro-isacss/jpage/wiki" target="_blank">Docs</a>
         <a href="#" target="_blank">Become a sponsor</a>
       </div>
     </header>
     <!-- === Docs === -->
-    <section class="section docs">
+    <section class="section section2">
       <div class="slider">
         <!-- === Get started === -->
         <div class="slide col-2">
@@ -62,14 +62,39 @@
                 <img src="./icons/clipboard.svg" alt="copy">
               </button>
               <pre>
-&lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt&lt;/script&gt
+&lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt;&lt;/script&gt
 </pre>
             </div>
           </div>
         </div>
         <!-- === Basic usage === -->
-        <div class="slide" style="background-color: blueviolet;">
-
+        <div class="slide col-2" style="background-color: #FF621A;">
+          <div>
+            <h1>Basic usage</h1>
+            <p>
+              If you want to know everything JPage can do, access the <a
+                href="https://github.com/pedro-isacss/jpage/wiki" target="_blank">full documentation</a>.
+            </p>
+          </div>
+          <div>
+            <div class="code">
+              <button onclick="copyText(2)">
+                Copy
+                <img src="./icons/clipboard.svg" alt="copy">
+              </button>
+              <pre>
+&lt;div class="jpage"&gt;
+  &lt;div class="section" style="background-color: crimson;"&gt;&lt;/div&gt;
+  &lt;div class="section"&gt;
+    &lt;div class="slider"&gt;
+      &lt;div class="slide" style="background-color: dimgray;"&gt;&lt;/div&gt;
+      &lt;div class="slide" style="background-color: blueviolet;"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+            </div>
+          </div>
         </div>
       </div>
     </section>
