@@ -1,8 +1,18 @@
 {
   "name": "jpage",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "type": "module",
-  "description": "",
+  "description": "Create dynamic, fast and amazing pages wink",
+  "keywords": [
+    "jpage",
+    "pages",
+    "javascript",
+    "front-end",
+    "amazing pages",
+    "create websites",
+    "full page",
+    "slides"
+  ],
   "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
