@@ -31,4 +31,4 @@ You can consult all versions of JPage by clicking [here🔗](https://www.npmjs.c
   </div>
 </div>
 ```
-If you want to know everything JPage can do, access the [full documentation🔗](https://github.com/pedro-isacss/jpage/wiki🔗).
+If you want to know everything JPage can do, access the [full documentation🔗](https://github.com/pedro-isacss/jpage/wiki).
