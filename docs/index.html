@@ -17,7 +17,8 @@
 <body>
   <div class="jpage">
     <!-- === Section 1: header === -->
-    <header class="section section1 p-3 bg-primary d-flex flex-column justify-content-center align-items-center">
+    <header
+      class="section section1 p-3 position-relative bg-primary d-flex flex-column justify-content-center align-items-center">
       <h1 class="text-light" style="font-size: 4rem;">JPage</h1>
       <p class="text-light mt-2 fs-5 text-center" style="font-weight: 500;">Create dynamic, fast and amazing pages 😉
       </p>
@@ -34,68 +35,68 @@
       </div>
     </header>
     <!-- === Section 2: docs === -->
-    <section class="section section2">
+    <section class="section">
       <div class="slider">
         <!-- === Get started === -->
-        <div class="slide col-2">
-          <div>
-            <h1>Get started</h1>
-            <p>
-              Import JPage JavaScript and CSS into your code. Then replace <strong>`{version}`</strong> with the desired
-              version.
-            </p>
-            <p>
-              You can consult all versions of JPage by clicking <a target="_blank"
-                href="https://www.npmjs.com/package/jpage">here</a>.
-            </p>
-          </div>
-          <div>
-            <div class="code">
-              <button onclick="copyText(0)">
-                Copy
-                <img src="./icons/clipboard.svg" alt="copy">
-              </button>
-              <pre>
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"&gt;
-</pre>
+        <div class="slide d-flex p-2 justify-content-center align-items-center flex-sm-wrap bg-danger">
+          <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
+            <!-- === Column 1 -->
+            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
+              <h1 class="text-light" style="font-weight: 600;">Get started</h1>
+              <p class="text-light text-center w-75" style="font-weight: 500;">
+                Import JPage JavaScript and CSS into your code. Then replace <strong>`{version}`</strong> with the
+                desired
+                version.
+              </p>
+              <p class="text-light text-center w-75" style="font-weight: 500;">
+                You can consult all versions of JPage by clicking <a class="text-light"
+                  style="font-weight: 600; cursor: pointer !important;" target="_blank"
+                  href="https://www.npmjs.com/package/jpage">here</a>.
+              </p>
             </div>
-            <div class="code">
-              <button onclick="copyText(1)">
-                Copy
-                <img src="./icons/clipboard.svg" alt="copy">
-              </button>
-              <pre>
-&lt;script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"&gt;&lt;/script&gt
-</pre>
+            <!-- === Column 2 === -->
+            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
+              <div class="w-75" style="overflow: auto;">
+                <span class="badge bg-dark mb-2">CSS</span>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fnpm%252Fjpage%2540%257Bversion%257D%252Flib%252Findex.css%2522%253E"
+                  style="width: 818px; height: 98px; border:0; transform: scale(1); overflow:hidden;"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
+              <div class="w-75 mt-3" style="overflow: auto;">
+                <span class="badge bg-dark mb-2">JavaScript</span>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fnpm%252Fjpage%2540%257Bversion%257D%252Flib%252Findex.js%2522%2520type%253D%2522module%2522%253E%253C%252Fscript%253E"
+                  style="width: 850px; height: 98px; overflow-x: visible;">
+                </iframe>
+              </div>
             </div>
           </div>
         </div>
         <!-- === Basic usage === -->
-        <div class="slide col-2" style="background-color: #FF621A;">
-          <div>
-            <h1>Basic usage</h1>
-            <p>
-              If you want to know everything JPage can do, access the <a
-                href="https://github.com/pedro-isacss/jpage/wiki" target="_blank">full documentation</a>.
-            </p>
-          </div>
-          <div>
-            <div class="code">
-              <button onclick="copyText(2)">
-                Copy
-                <img src="./icons/clipboard.svg" alt="copy">
-              </button>
-              <pre>
-&lt;div class="jpage"&gt;
-  &lt;div class="section" style="background-color: crimson;"&gt;&lt;/div&gt;
-  &lt;div class="section"&gt;
-    &lt;div class="slider"&gt;
-      &lt;div class="slide" style="background-color: dimgray;"&gt;&lt;/div&gt;
-      &lt;div class="slide" style="background-color: blueviolet;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</pre>
+        <div class="slide d-flex p-2 justify-content-center align-items-center bg-success">
+          <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
+            <!-- === Column 1 === -->
+            <div class="col-md d-flex justify-content-center align-items-center flex-column">
+              <h1 class="text-light" style="font-weight: 600;">Basic usage</h1>
+              <p class="text-light text-center w-75" style="font-weight: 500;">
+                If you want to know everything JPage can do, access the <a
+                  href="https://github.com/pedro-isacss/jpage/wiki" class="text-light"
+                  style="font-weight: 600; cursor: pointer !important;" target="_blank">full
+                  documentation</a>.
+              </p>
+            </div>
+            <!-- === Column 2 === -->
+            <div class="col-md d-flex justify-content-center align-items-center flex-column">
+              <div class="w-75" style="overflow: auto;">
+                <span class="badge bg-dark mb-2">HTML</span>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522jpage%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522section%2522%2520style%253D%2522background-color%253A%2520crimson%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522section%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2522%2520style%253D%2522background-color%253A%2520dimgray%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2522%2520style%253D%2522background-color%253A%2520blueviolet%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="width: 628px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
             </div>
           </div>
         </div>

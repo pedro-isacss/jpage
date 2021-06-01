@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400;500;600&display=swap");
-@import "./styles/section1.css";
-@import "./styles/section2.css";
 @import "./styles/responsive.css";
 
 :root {
@@ -16,4 +14,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Maven Pro", sans-serif;
+}
+
+.CodeMirror-scroll {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
