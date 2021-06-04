@@ -20,7 +20,8 @@
     <header
       class="section section1 p-1 position-relative bg-primary d-flex flex-column justify-content-center align-items-center">
       <h1 class="text-light" style="font-size: 4rem;">JPage</h1>
-      <p class="text-light mt-2 fs-5 text-center" style="font-weight: 500;">Create dynamic, fast and amazing pages 😉
+      <p class="text-light fs-3 mt-2 fs-5 text-center" style="font-weight: 500;">Create dynamic, fast and amazing pages
+        😉
       </p>
       <div class="btn-group mt-2" role="group" aria-label="Buttons">
         <a href="https://github.com/pedro-isacss/jpage" target="_blank" class="btn btn-light">GitHub</a>
@@ -38,49 +39,41 @@
     <section class="section">
       <div class="slider">
         <!-- === Get started === -->
-        <div class="slide d-flex p-1 justify-content-center align-items-center flex-sm-wrap bg-danger">
+        <div class="slide d-flex p-1 justify-content-center align-items-center flex-sm-wrap"
+          style="background: crimson;">
           <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
             <!-- === Column 1 -->
             <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
-              <h2 class="text-light" style="font-weight: 600;">Get started</h2>
-              <p class="text-light text-center w-75" style="font-weight: 500;">
+              <h2 class="text-light" style="font-weight: 600; font-size: 3rem;">Get started</h2>
+              <p class="text-light fs-5 text-center w-75" style="font-weight: 500;">
                 Import JPage JavaScript and CSS into your code. Then replace <strong>`{version}`</strong> with the
                 desired
                 version.
               </p>
+            </div>
+            <!-- === Column 2 === -->
+            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
+              <div class="w-75" style="overflow: auto;">
+                <script
+                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=styles.html"></script>
+                <script
+                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=script.html"></script>
+              </div>
               <p class="text-light text-center w-75" style="font-weight: 500;">
                 You can consult all versions of JPage by clicking <a class="text-light"
                   style="font-weight: 600; cursor: pointer !important;" target="_blank"
                   href="https://www.npmjs.com/package/jpage">here</a>.
               </p>
             </div>
-            <!-- === Column 2 === -->
-            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
-              <div class="w-75" style="overflow: auto;">
-                <span class="badge bg-dark mb-2">CSS</span>
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fnpm%252Fjpage%2540%257Bversion%257D%252Flib%252Findex.css%2522%253E"
-                  style="width: 818px; height: 98px; border:0; transform: scale(1); overflow:hidden;"
-                  sandbox="allow-scripts allow-same-origin">
-                </iframe>
-              </div>
-              <div class="w-75 mt-3" style="overflow: auto;">
-                <span class="badge bg-dark mb-2">JavaScript</span>
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fcdn.jsdelivr.net%252Fnpm%252Fjpage%2540%257Bversion%257D%252Flib%252Findex.js%2522%2520type%253D%2522module%2522%253E%253C%252Fscript%253E"
-                  style="width: 850px; height: 98px; overflow-x: visible;">
-                </iframe>
-              </div>
-            </div>
           </div>
         </div>
         <!-- === Basic usage === -->
-        <div class="slide d-flex p-1 justify-content-center align-items-center bg-success">
+        <div class="slide d-flex p-1 justify-content-center align-items-center" style="background: darkviolet">
           <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
             <!-- === Column 1 === -->
             <div class="col-md d-flex justify-content-center align-items-center flex-column">
-              <h2 class="text-light" style="font-weight: 600;">Basic usage</h2>
-              <p class="text-light text-center w-75" style="font-weight: 500;">
+              <h2 class="text-light" style="font-weight: 600; font-size: 3rem;">Basic usage</h2>
+              <p class="text-light fs-5 text-center w-75" style="font-weight: 500;">
                 If you want to know everything JPage can do, access the <a
                   href="https://github.com/pedro-isacss/jpage/wiki" class="text-light"
                   style="font-weight: 600; cursor: pointer !important;" target="_blank">full
@@ -90,12 +83,8 @@
             <!-- === Column 2 === -->
             <div class="col-md d-flex justify-content-center align-items-center flex-column">
               <div class="w-75" style="overflow: auto;">
-                <span class="badge bg-dark mb-2">HTML</span>
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522jpage%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522section%2522%2520style%253D%2522background-color%253A%2520crimson%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522section%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2522%2520style%253D%2522background-color%253A%2520dimgray%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2522%2520style%253D%2522background-color%253A%2520blueviolet%253B%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                  style="width: 628px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
-                  sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                <script
+                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=jpage-basic-usage.html"></script>
               </div>
             </div>
           </div>
@@ -104,36 +93,13 @@
     </section>
     <!-- === Collaborate with the project === -->
     <section class="section p-5 bg-dark d-flex flex-column justify-content-center align-items-center">
-      <h2 class="text-center text-light" style="font-weight: 600;">Collaborate with the project</h2>
-      <p class="text-center text-light" style="font-weight: 500;">Did you like JPage and would like to contribute?</p>
-      <div class="row mt-3 w-100">
-        <div class="mw-100 col-md my-3 d-flex justify-content-center align-items-center flex-column">
-          <div class="card w-100">
-            <div class="card-header">
-              Open source community
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">GitHub</h5>
-              <div class="btn-group mt-2" role="group" aria-label="Buttons">
-                <a href="https://github.com/pedro-isacss/jpage" target="_blank" class="btn btn-dark">Go to GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mw-100 col-md my-3 d-flex justify-content-center align-items-center flex-column">
-          <div class="card w-100">
-            <div class="card-header">
-              Collaborate financially
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Become a sponsor.</h5>
-              <div class="btn-group mt-2" role="group" aria-label="Buttons">
-                <a href="#" target="_blank" class="btn btn-outline-dark rounded">Once</a>
-                <a href="#" target="_blank" class="btn btn-dark mx-2 rounded">Monthly</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <h2 class="text-center text-light fs-1" style="font-weight: 600;">Collaborate with the project</h2>
+      <p class="text-center text-light mt-3 fs-5" style="font-weight: 500;">Did you like JPage and would like to
+        contribute?
+        Collaborate on GitHub or become a sponsor ;)</p>
+      <div class="btn-group mt-2" role="group" aria-label="Buttons">
+        <a href="https://github.com/pedro-isacss/jpage" target="_blank" class="btn btn-light">GitHub</a>
+        <a href="#" target="_blank" class="btn btn-light">Support</a>
       </div>
     </section>
   </div>
