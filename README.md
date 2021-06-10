@@ -6,6 +6,7 @@ JPage is a template for creating websites where each section occupies the entire
 Check out a real example of a website created with JPage by clicking [here🔗](https://pedro-isacss.github.io/jpage/).
 
 ## Get started
+### CDN
 Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
 
 CSS:
@@ -18,6 +19,9 @@ JavaScript:
 ```
 
 You can consult all versions of JPage by clicking [here🔗](https://www.npmjs.com/package/jpage).
+
+### Download
+You can also download library files by [clicking here].(https://downgit.github.io/#/home?url=https://github.com/pedro-isacss/jpage/tree/master/lib)
 
 ## Basic usage
 ```html
