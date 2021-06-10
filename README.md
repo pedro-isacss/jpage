@@ -21,7 +21,7 @@ JavaScript:
 You can consult all versions of JPage by clicking [here🔗](https://www.npmjs.com/package/jpage).
 
 ### Download
-You can also download library files by [clicking here].(https://downgit.github.io/#/home?url=https://github.com/pedro-isacss/jpage/tree/master/lib)
+You can also download library files by [clicking here](https://downgit.github.io/#/home?url=https://github.com/pedro-isacss/jpage/tree/master/lib).
 
 ## Basic usage
 ```html
