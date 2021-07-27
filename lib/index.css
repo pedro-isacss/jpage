@@ -86,14 +86,14 @@ body {
 }
 
 .jpage .section .slider .nav-slider {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: sticky;
+  top: 92%;
+  right: 50%;
+  transform: translateX(50%);
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.55s;
 }
 
 .jpage .section .slider .nav-slider button {
