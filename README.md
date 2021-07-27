@@ -1,4 +1,4 @@
-# JPage ![npm](https://img.shields.io/npm/dt/jpage?color=%23dc143c) ![npm](https://img.shields.io/npm/v/jpage?color=%23dc143c) ![NPM](https://img.shields.io/npm/l/jpage?color=%23dc143c)
+# JPage ![npm](https://img.shields.io/npm/dt/jpage?color=%23002336) ![npm](https://img.shields.io/npm/v/jpage?color=%23002336) ![NPM](https://img.shields.io/npm/l/jpage?color=%23002336)
 Create dynamic, fast and amazing pages 😉
 
 JPage is a template for creating websites where each section occupies the entire screen. In addition to the sections, JPage also offers the "sliders", which are sections with horizontal scroll.
