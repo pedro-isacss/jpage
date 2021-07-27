@@ -20,3 +20,11 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+.gist-meta {
+  display: none;
+}
+
+.gist-data {
+  padding: 8px;
+}
