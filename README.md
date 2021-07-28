@@ -35,4 +35,3 @@ You can also download library files by [clicking here](https://downgit.github.io
   </div>
 </div>
 ```
-If you want to know everything JPage can do, access the [full documentation🔗](https://github.com/pedro-isacss/jpage/wiki).
