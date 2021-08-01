@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Problems with JPage
+about: Usage problems
 title: ''
 labels: bug
 assignees: ''
