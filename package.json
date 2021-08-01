@@ -1,8 +1,8 @@
 {
   "name": "jpage",
-  "version": "0.6.1",
+  "version": "0.6.3",
   "type": "module",
-  "description": "Create dynamic, fast and amazing pages wink",
+  "description": "Create dynamic, fast and amazing pages.",
   "keywords": [
     "jpage",
     "pages",
@@ -11,7 +11,8 @@
     "amazing pages",
     "create websites",
     "full page",
-    "slides"
+    "slides",
+    "scroller"
   ],
   "main": "./lib/index.js",
   "directories": {
