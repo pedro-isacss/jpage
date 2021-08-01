@@ -68,16 +68,6 @@ body {
   height: 100vh;
 }
 
-.jpage .section .slider .slider-control {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  top: 50%;
-  padding: 0 32px;
-}
-
 .jpage .section .slider .right-slider-btn,
 .jpage .section .slider .left-slider-btn {
   background-color: transparent;
