@@ -2,11 +2,19 @@
 @import "./styles/responsive.css";
 
 :root {
-  --theme: #0d98ff;
-  --theme2: #850dff;
-  --theme3: #4aff00;
+  --padding: 24px;
+  --blue-primary: #002336;
+  --blue-secondary: #005d8f;
   --white: #eee;
-  --black: #0a0a0a;
+  --black: #444;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  --border: 1px solid rgba(0, 0, 0, 0.2);
+  --radius: 8px;
+  --gradient: linear-gradient(
+    to right,
+    var(--blue-primary),
+    var(--blue-secondary)
+  );
 }
 
 * {
@@ -16,6 +24,42 @@
   font-family: "Maven Pro", sans-serif;
 }
 
+/* === SECTION 1 === */
+.section1 {
+  background: url(./images/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 h1 {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* === SECTION 2 === */
+.section2 .slide1 {
+  background: url(./images/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section2 .slide2 {
+  background: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* === SECTION 3 === */
+.section3 {
+  background: url(./images/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* === GIT CODE === */
 .CodeMirror-scroll {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -26,5 +70,19 @@
 }
 
 .gist-data {
-  padding: 8px;
+  padding: 12px;
+}
+
+/* === SCROLL BAR === */
+::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 4px;
+  background: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue-primary);
+  border-radius: 4px;
 }

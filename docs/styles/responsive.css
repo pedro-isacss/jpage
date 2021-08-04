@@ -30,3 +30,12 @@
     max-width: 300px;
   }
 }
+
+@media (max-width: 430px) {
+  h2 {
+    font-size: 32px !important;
+  }
+  .description {
+    font-size: 18px !important;
+  }
+}
