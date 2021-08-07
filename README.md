@@ -2,10 +2,6 @@
 
 ![JPage](https://i.ibb.co/HtVfWpT/Create-dynamic-fast-and-amazing-pages.png)
 
-JPage is a template for creating websites where each section occupies the entire screen. In addition to the sections, JPage also offers the "sliders", which are sections with horizontal scroll.
-
-Check out a real example of a website created with JPage by clicking [here🔗](https://pedro-isacss.github.io/jpage/).
-
 ## Get started
 ### CDN
 Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
@@ -35,6 +31,12 @@ You can also download library files by [clicking here](https://downgit.github.io
     </div>
   </div>
 </div>
+
+<script>
+  const jpageConfig = {
+    typePage: "jpage-default"
+  }
+</script>
 ```
 
 For more details, consult the [documentation](https://github.com/pedro-isacss/jpage/wiki).
