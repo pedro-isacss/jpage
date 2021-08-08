@@ -2,7 +2,9 @@
 
 ![JPage](https://i.ibb.co/HtVfWpT/Create-dynamic-fast-and-amazing-pages.png)
 
-JPage is a JavaScript plugin for creating dynamic, fast, and amazing pages. Learn more by reading the [documentation](https://github.com/pedro-isacss/jpage/wiki/1.-Home).
+JPage is a JavaScript plugin for creating dynamic, fast, and amazing pages.
+
+Learn more by reading the [documentation](https://github.com/pedro-isacss/jpage/wiki/1.-Home).
 
 ## Author
 
