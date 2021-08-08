@@ -6,8 +6,30 @@ JPage is a JavaScript plugin for creating dynamic, fast, and amazing pages.
 
 Learn more by reading the [documentation](https://github.com/pedro-isacss/jpage/wiki/1.-Home).
 
-## Author
+## Get started
+Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
 
+CSS:
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"
+/>
+```
+
+JavaScript:
+```html
+<script
+  src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js"
+  type="module"
+></script>
+```
+You can consult all versions of JPage by clicking [here](https://www.npmjs.com/package/jpage).
+
+## Licence
+JPage is [MIT licensed](https://github.com/pedro-isacss/jpage/blob/master/LICENSE).
+
+## Author
 Hi, my name is Pedro Isac. Contact me:
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?to=ss.pedroisac@gmail.com&tf=cm)
