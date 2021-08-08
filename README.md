@@ -1,5 +1,5 @@
 <h1 align="center">
-  JPage 😉 -
+  JPage<br>
   <img src="https://img.shields.io/jsdelivr/npm/hy/jpage?color=%23002336" alt="jsDelivr hits (npm)">
   <img src="https://img.shields.io/npm/v/jpage?color=%23002336" alt="npm">
   <img src="https://img.shields.io/npm/l/jpage?color=%23002336" alt="NPM">
