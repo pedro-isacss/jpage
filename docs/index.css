@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400;500;600&display=swap");
-@import "./styles/responsive.css";
 
 :root {
   --padding: 24px;
@@ -25,64 +24,87 @@
 }
 
 /* === SECTION 1 === */
-.section1 {
+header {
   background: url(./images/background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
 }
 
-.section1 h1 {
+header h1 {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  color: var(--white);
+  font-size: 4rem;
 }
 
-/* === SECTION 2 === */
-.section2 .slide1 {
-  background: url(./images/background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+header .description {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 18px;
+  position: relative;
+  text-align: center;
 }
 
-.section2 .slide2 {
-  background: url(./images/background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+header .links {
+  margin: 32px;
 }
 
-/* === SECTION 3 === */
-.section3 {
-  background: url(./images/background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+header .links a {
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.7s ease-in;
 }
 
-/* === GIT CODE === */
-.CodeMirror-scroll {
-  margin-bottom: 0;
-  padding-bottom: 0;
+header .links a:hover {
+  background-color: #fff;
+  transition: background-color 0.7s ease-in;
 }
 
-.gist-meta {
-  display: none;
+header .attr {
+  position: absolute;
+  bottom: 24px;
+  text-align: center;
+  padding: 0 24px;
 }
 
-.gist-data {
-  padding: 12px;
+header .attr span {
+  color: var(--white);
 }
 
-/* === SCROLL BAR === */
-::-webkit-scrollbar-track {
-  background-color: #f4f4f4;
+header .attr a {
+  color: var(--white);
+  font-weight: 500;
 }
-::-webkit-scrollbar {
-  width: 2px;
-  height: 4px;
-  background: #f4f4f4;
+
+/* === Responsive === */
+@media (max-width: 640px) {
+  .section1 .links {
+    flex-direction: column;
+  }
+  .section1 .links a {
+    margin: 4px 0;
+  }
+  .section1 .badges img {
+    margin: 4px 4px;
+  }
 }
-::-webkit-scrollbar-thumb {
-  background: var(--blue-primary);
-  border-radius: 4px;
+
+@media (max-width: 460px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+  header .description {
+    font-size: 1.4rem;
+  }
 }

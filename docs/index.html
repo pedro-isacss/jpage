@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@0.8.2/lib/index.css">
-  <!-- <link rel="stylesheet" href="../lib/index.css"> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
   <title>JPage - Create dynamic, fast and amazing pages 😉</title>
   <meta name="description" content="Create dynamic, fast and amazing pages 😉">
@@ -17,91 +13,25 @@
 </head>
 
 <body>
-  <div class="jpage">
-    <!-- === Section 1: header === -->
-    <header class="section section1 p-1 position-relative d-flex flex-column justify-content-center align-items-center">
-      <h1 class="text-light" style="font-size: 4rem; font-weight: 600;">JPage</h1>
-      <p class="text-light fs-3 mt-2 text-center" style="font-weight: 500;">Create dynamic, fast and amazing pages
-        😉
-      </p>
-      <div class="btn-group mt-2" role="group" aria-label="Buttons">
-        <a href="https://github.com/pedro-isacss/jpage" target="_blank" class="btn btn-light">GitHub</a>
-        <a href="https://github.com/pedro-isacss/jpage/wiki" target="_blank" class="btn btn-light">Docs</a>
-      </div>
-    </header>
-    <!-- === Section 2: docs === -->
-    <section class="section2 section">
-      <div class="slider">
-        <!-- === Get started === -->
-        <div class="slide1 slide d-flex p-1 justify-content-center align-items-center flex-sm-wrap">
-          <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
-            <!-- === Column 1 -->
-            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
-              <h2 class="text-light" style="font-weight: 600; font-size: 3rem;">Get started</h2>
-              <p class="description my-3 text-light fs-5 text-center w-75" style="font-weight: 500;">
-                Import JPage JavaScript and CSS into your code. Then replace <strong>`{version}`</strong> with the
-                desired
-                <a class="text-light text-center" style="font-weight: 500;" target="_blank"
-                  href="https://www.npmjs.com/package/jpage">version</a>.
-              </p>
-            </div>
-            <!-- === Column 2 === -->
-            <div class="col-md d-flex justify-content-center align-items-center flex-column" style="min-width: 50%;">
-              <div class="w-75" style="overflow: auto;">
-                <script
-                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=styles.html"></script>
-                <script
-                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=script.html"></script>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- === Basic usage === -->
-        <div class="slide2 slide d-flex p-1 justify-content-center align-items-center">
-          <div class="row row-cols-sm-2 w-100 justify-content-center align-items-center">
-            <!-- === Column 1 === -->
-            <div class="col-md d-flex justify-content-center align-items-center flex-column">
-              <h2 class="text-light" style="font-weight: 600; font-size: 3rem;">Basic usage</h2>
-              <p class="description my-3 text-light fs-5 text-center w-75" style="font-weight: 500;">
-                Need more details on how to use JPage?
-                Consult the <a class="text-light text-center" style="font-weight: 500;"
-                  href="https://github.com/pedro-isacss/jpage/wiki" target="_blank">documentation</a>.
-              </p>
-            </div>
-            <!-- === Column 2 === -->
-            <div class="col-md d-flex justify-content-center align-items-center flex-column">
-              <div class="w-75" style="overflow: auto;">
-                <script
-                  src="https://gist.github.com/pedro-isacss/3b0e9be47b453220eb41b840e02e17bf.js?file=jpage-basic-usage.html"></script>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- === Author === -->
-    <section class="section3 section p-5 d-flex flex-column justify-content-center align-items-center"
-      style="background-color: #005d8f;">
-      <h2 class="text-center text-light fs-1" style="font-weight: 600;">About the author</h2>
-      <p class="description text-center text-light my-3 fs-5" style="font-weight: 500;">Hi, my name is Pedro Isac.
-        Contact me 👇</p>
-      <div class="btn-group mt-2" role="group" aria-label="Buttons">
-        <a href="https://github.com/pedro-isacss" target="_blank" class="btn btn-light">GitHub</a>
-        <a href="https://www.instagram.com/ss.pedroisac/" target="_blank" class="btn btn-light">Instagram</a>
-      </div>
-    </section>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/jpage@0.8.2/lib/index.js" type="module"></script>
-  <!-- <script src="../lib/index.js" type="module"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <script src="./index.js"></script>
-  <script>
-    const jpageConfig = {
-      pageType: "jpage-default"
-    }
-  </script>
+  <!-- === Section 1: header === -->
+  <header>
+    <h1 title="JPage">JPage</h1>
+    <p class="description">Create dynamic, fast and amazing pages
+      😉
+    </p>
+    <div class="links">
+      <a href="https://github.com/pedro-isacss/jpage">GitHub</a>
+    </div>
+    <div class="attr">
+      <span>Hi, I'm <a href="https://pedro-isacss.github.io/" target="_blank">Pedro Isac</a>. I
+        developed
+        this plugin. If you like it, <a
+          href="https://www.paypal.com/donate?business=JPYWZDNJWMF72&no_recurring=0&item_name=JPage&currency_code=USD"
+          target="_blank">buy
+          me a coffee.</a>
+      </span>
+    </div>
+  </header>
 </body>
 
 </html>
