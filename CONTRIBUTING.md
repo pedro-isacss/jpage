@@ -6,5 +6,5 @@ There is a [code of conduct](https://github.com/pedro-isacss/jpage/blob/master/C
 - Make your changes
 - Create a pull request
 
-## Other ways to contribute
-In addition to creating PR's, you can also contribute with [documentation](https://github.com/pedro-isacss/jpage/wiki), interacting in the [community](https://github.com/pedro-isacss/jpage/discussions), or creating [issues](https://github.com/pedro-isacss/jpage/issues).
+## Issues
+You can also contribute creating [issues](https://github.com/pedro-isacss/jpage/issues).
