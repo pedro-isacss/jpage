@@ -2,7 +2,7 @@
 
 ![JPage](./docs/images/readme-gif.gif)
 
-JPage is a JavaScript plugin for creating dynamic, fast, and amazing pages.
+JPage is a JavaScript plugin for creating websites in the form of slides.
 
 ## Get started
 Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
