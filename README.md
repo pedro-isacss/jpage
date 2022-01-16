@@ -1,4 +1,4 @@
-# JPage 😉 - ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?color=%23002336) ![npm](https://img.shields.io/npm/v/jpage?color=%23002336) ![NPM](https://img.shields.io/npm/l/jpage?color=%23002336)
+# JPage 😉 - ![npm](https://img.shields.io/npm/v/jpage?color=018492) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?color=018492) ![NPM](https://img.shields.io/npm/l/jpage?color=018492)
 
 ![JPage](./docs/images/readme-gif.gif)
 
