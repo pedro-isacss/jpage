@@ -2,7 +2,7 @@
 
 ![JPage](./docs/images/jpage-cover.png)
 
-JPage is a JavaScript plugin for creating websites in the form of slides.
+JPage is a JavaScript plugin for creating websites as slides.
 
 ## Get started
 Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
