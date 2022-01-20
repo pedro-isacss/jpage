@@ -1,6 +1,6 @@
 # JPage 😉 - ![npm](https://img.shields.io/npm/v/jpage?color=018492) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?color=018492) ![NPM](https://img.shields.io/npm/l/jpage?color=018492)
 
-![JPage](./docs/images/jpage-cover.png)
+![JPage](./jpage-cover.png)
 
 JPage is a JavaScript plugin for creating websites as slides.
 

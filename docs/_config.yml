@@ -3,3 +3,4 @@ description: Create websites as slides.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
+sass_dir: _sass

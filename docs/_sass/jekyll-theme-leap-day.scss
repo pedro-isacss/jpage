@@ -6,14 +6,16 @@ by Matt Graham
 @import "normalize";
 @import "fonts";
 @import "rouge-base16-dark";
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap");
 
 body {
-  font:14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", sans-serif;
   color:#2b2b2b;
-  font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url(../images/body-background.png) #eae6d1;
+  background: #dee;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -162,7 +164,7 @@ dt {
 }
 
 header {
-  padding: 25px 20px 40px 20px;
+  padding: 25px 0px 40px 0px;
   margin: 0;
   position: fixed;
   top: 0;
@@ -170,16 +172,17 @@ header {
   right:0;
   width: 100%;
   text-align: center;
-  background: url(../images/background.png) #018492;
+  background:  $color3;
   box-shadow: 1px 0px 2px rgba(0,0,0,.75);
   z-index:99;
   -webkit-font-smoothing:antialiased;
   min-height: 76px;
 
   h1 {
-    font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f3f3f3;
     text-shadow: 0px 2px 0px #235796;
+    font-weight: 700;
+    font-size: 2.2em;
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
@@ -204,32 +207,24 @@ header {
   margin-right:-382px;
   position: fixed;
   top: 115px;
-  background: #ffcc00;
-  border: 1px solid #f0b500;
+  background: $color2;
+  border: 1px solid $color4;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
 
   .button {
-    border: 1px solid #dba500;
-    background: linear-gradient(rgb(255, 231, 136), rgb(255, 206, 56));
+    border: 1px solid $color4;
     border-radius: 2px;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
-    background-color: #FFE788;
     margin-left: 5px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    color:#333;
     font-weight: bold;
     display:inline-block;
     text-align:center;
-
-    &:hover {
-      background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
-    }
   }
 
   .fork {
@@ -240,7 +235,7 @@ header {
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    background-color: #FFE788;
+    background-color: $white;
   }
 
   .downloads {
@@ -251,9 +246,9 @@ header {
       float:left;
       line-height:52px;
       font-size:90%;
-      color:#9d7f0d;
+      color:$white;
       text-transform:uppercase;
-      text-shadow:rgba(#fff, 0.2) 0 1px 0;
+      font-weight: 700;
     }
   }
 
@@ -268,7 +263,7 @@ header {
       display:inline;
 
       a.button {
-        background-color: #FFE788;
+        background-color: $white;
       }
     }
   }
