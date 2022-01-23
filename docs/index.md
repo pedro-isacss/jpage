@@ -22,7 +22,7 @@ To use JPage in your project, you must add to it:
 
 > replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
 
-**NOTE:** if you don't want to use CDN in your project, you can download JPage and use it directly by clicking on the download buttons available in the header.
+**NOTE:** if you don't want to use CDN in your project, you can download JPage and use it directly by clicking on the download button available in the header.
 
 * * *
 
@@ -39,4 +39,35 @@ Creating websites as slides is as simple as:
     </div>
   </div>
 </div>
+```
+
+* * *
+
+## 4 - Native Components
+JPage also offers some native components that you can repurpose.
+
+**MENU**
+
+You can create a full page menu by doing:
+
+```html
+<div class="jpage">
+  <div class="menu" style="background-color: yellow;">
+    <!-- Menu content here -->
+  </div>
+  <button id="toggle-menu-btn"></button>
+</div>
+```
+
+Use the jpageConfig object to customize the menu
+
+```html
+<script>
+  const jpageConfig = {
+    menu: {
+      openIconBtn: "x",   // button content when menu is open
+      closeIconBtn: "o"   // button content when the menu is closed
+    }
+  }
+</script>
 ```

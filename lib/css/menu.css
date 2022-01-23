@@ -1,0 +1,17 @@
+.menu{
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: height 0.3s ease-in;
+}
+
+#toggle-menu-btn{
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  z-index: 10;
+}

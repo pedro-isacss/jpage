@@ -1,0 +1,39 @@
+/* Scroller */
+.jpage .section {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-control {
+  position: fixed;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-control button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  margin: 4px 0;
+  background-color: #fff;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.nav-control button.active {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  transition: all 0.7s ease;
+  margin: 6px;
+}
