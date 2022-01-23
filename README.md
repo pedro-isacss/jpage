@@ -5,9 +5,9 @@
 JPage is a JavaScript plugin for creating websites as slides.
 
 ## Get started
-Import JPage JavaScript and CSS into your code. Then replace `{version}` with the desired version.
+To use JPage in your project, you must add to it:
 
-CSS:
+**CSS:**
 ```html
 <link
   rel="stylesheet"
@@ -15,19 +15,20 @@ CSS:
 />
 ```
 
-JavaScript:
+**JavaScript:**
 ```html
 <script
   src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js"
   type="module"
 ></script>
 ```
-You can consult all versions of JPage by clicking [here](https://www.npmjs.com/package/jpage).
+> replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
+
+**NOTE:**  if you don’t want to use CDN in your project, you can download JPage and use it directly by [clicking here](https://github.com/pedro-isacss/jpage/archive/refs/heads/master.zip).
 
 ## Basic usege
-With JPage you can create two types of pages: jpage-default and jpage-one-slider.
+Creating websites as slides is as simple as:
 
-### jpage-default
 ```html
 <div class="jpage">
   <div class="section" style="background-color: crimson;"> <!-- Your content --> </div>
@@ -38,34 +39,7 @@ With JPage you can create two types of pages: jpage-default and jpage-one-slider
     </div>
   </div>
 </div>
-
-<script>
-  const jpageConfig = {
-    pageType: "jpage-default"
-  }
-</script>
 ```
-Click [here](https://pedro-isacss.github.io/jpage/examples/jpage-default.html) to see an example.
-
-### jpage-one-slider
-```html
-<div class="jpage">
-  <div class="section">
-    <div class="slider">
-      <div class="slide" style="background-color: brown;"> <!-- Your content --> </div>
-      <div class="slide" style="background-color: dimgray;"> <!-- Your content --> </div>
-    </div>
-  </div>
-  <section> <!-- Your content --> </section>
-</div>
-
-<script>
-  const jpageConfig = {
-    pageType: "jpage-one-slider"
-  }
-</script>
-```
-Click [here](https://pedro-isacss.github.io/jpage/examples/jpage-one-slider.html) to see an example.
 
 ## Licence
 JPage is [MIT licensed](https://github.com/pedro-isacss/jpage/blob/master/LICENSE).
