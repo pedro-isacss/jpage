@@ -1,1 +1,9 @@
+title: JPage
+description: Create websites as slides.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-leap-day
+sass_dir: _sass
+github:
+  repository_url: https://github.com/pedro-isacss/jpage/
+  zip_url: https://github.com/pedro-isacss/jpage/archive/refs/heads/master.zip
