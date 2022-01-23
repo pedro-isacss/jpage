@@ -41,6 +41,8 @@ Creating websites as slides is as simple as:
 </div>
 ```
 
+To learn more about JPage see the [documentation](https://pedro-isacss.github.io/jpage/).
+
 ## Licence
 JPage is [MIT licensed](https://github.com/pedro-isacss/jpage/blob/master/LICENSE).
 
