@@ -8,7 +8,7 @@ layout: post
 
 JPage also offers some native components that you can repurpose.
 
-## MENU
+## Menu
 
 You can create a full page menu by doing:
 
@@ -27,8 +27,8 @@ Use the jpageConfig object to customize the menu
 <script>
   const jpageConfig = {
     menu: {
-      openIconBtn: "x",   // button content when menu is open
-      closeIconBtn: "o"   // button content when the menu is closed
+      buttonIconToClose: "x",   // button content when menu is open
+      buttonIconToOpen: "o"   // button content when the menu is closed
     }
   }
 </script>

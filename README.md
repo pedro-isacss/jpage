@@ -39,6 +39,9 @@ Creating websites as slides is as simple as:
     </div>
   </div>
 </div>
+<script>
+  const jpageConfig = {} // Object to configure JPage
+</script>
 ```
 
 To learn more about JPage see the [documentation](https://pedro-isacss.github.io/jpage/).
