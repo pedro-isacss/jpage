@@ -1,8 +1,8 @@
 {
   "name": "jpage",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "type": "module",
-  "description": "Create dynamic, fast and amazing pages.",
+  "description": "Create websites as slides.",
   "keywords": [
     "jpage",
     "pages",
@@ -19,7 +19,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "cd docs && bundle exec jekyll serve --livereload --watch"
   },
   "repository": {
     "type": "git",
