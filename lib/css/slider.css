@@ -3,11 +3,12 @@
   display: flex;
   overflow-x: hidden;
   position: relative;
+  height: 100%;
 }
 
 .jpage .section .slider .slide {
   min-width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .jpage .section .slider .right-slider-btn,
