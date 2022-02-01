@@ -21,14 +21,14 @@ You can create a full page menu by doing:
 </div>
 ```
 
-Use the jpageConfig object to customize the menu
+Use the jpageConfig object to customize the menu:
 
 ```html
 <script>
   const jpageConfig = {
     menu: {
-      buttonIconToClose: "x",   // button content when menu is open
-      buttonIconToOpen: "o"   // button content when the menu is closed
+      buttonIconToClose: "x",      // button content when menu is open
+      buttonIconToOpen: "o"        // button content when the menu is closed
     }
   }
 </script>
