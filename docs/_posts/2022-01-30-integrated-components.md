@@ -1,12 +1,26 @@
 ---
-title: Native Components
+title: Integrated Components
 author: Pedro Isac
-date: 2022-01-28
+date: 2022-01-30
 category: JPage
 layout: post
 ---
 
-JPage also offers some native components that you can repurpose.
+In addition to Scroller and Slider, JPage also offers some integrated components.
+
+## After Sections
+
+If you need to add additional content but you don't want to use either the Scroller or the Slider, then you can use After Sections.
+
+```html
+<div class="jpage">
+  <div class="after-sections">
+    <!-- Your content here -->
+  </div>
+</div>
+```
+
+> **Important:** add the After Sections component after all sections!
 
 ## Menu
 
