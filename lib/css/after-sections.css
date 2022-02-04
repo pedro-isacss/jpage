@@ -1,0 +1,6 @@
+.after-sections{
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+  z-index: 10;
+}
