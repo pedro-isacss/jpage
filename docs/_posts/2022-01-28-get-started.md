@@ -11,12 +11,12 @@ To use JPage in your project using CDN, you must add to it:
 
 **CSS**
 ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.css"/>
 ```
 
 **JAVASCRIPT**
 ```html
-  <script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.js" type="module"></script>
 ```
 
 > replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
