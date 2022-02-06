@@ -11,14 +11,14 @@ To use JPage in your project, you must add to it:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.css"
+  href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.css"
 />
 ```
 
 **JavaScript:**
 ```html
 <script
-  src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.js"
+  src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.js"
   type="module"
 ></script>
 ```

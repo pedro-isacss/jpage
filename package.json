@@ -1,6 +1,6 @@
 {
   "name": "jpage",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "type": "module",
   "description": "Create websites as slides.",
   "keywords": [
@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "cd docs && bundle exec jekyll serve --livereload --watch"
+    "docs": "cd docs && bundle exec jekyll serve --livereload --watch",
+    "minify": "npx esbuild lib/index.js --bundle --minify --outfile=lib/index.min.js && npx esbuild lib/index.css --bundle --outfile=lib/index.min.css"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/pedro-isacss/jpage/issues"
   },
-  "homepage": "https://github.com/pedro-isacss/jpage#readme"
+  "homepage": "https://github.com/pedro-isacss/jpage#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.18"
+  }
 }

@@ -1,0 +1,130 @@
+/* lib/css/scroller.css */
+.jpage .section {
+  width: 100%;
+}
+.nav-control {
+  position: fixed;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-control button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  margin: 4px 0;
+  background-color: #fff;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+.nav-control button.active {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  transition: all 0.7s ease;
+  margin: 6px;
+}
+
+/* lib/css/slider.css */
+.jpage .section .slider {
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+  height: 100%;
+}
+.jpage .section .slider .slide {
+  min-width: 100vw;
+  height: 100%;
+}
+.jpage .section .slider .right-slider-btn,
+.jpage .section .slider .left-slider-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.jpage .section .slider .nav-slider {
+  position: sticky;
+  top: 92%;
+  right: 50%;
+  transform: translateX(50%);
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jpage .section .slider .nav-slider button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  margin: 0 4px;
+  background-color: #fff;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+.jpage .section .slider .nav-slider button.active-slide {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  transition: all 0.7s ease;
+  margin: 6px;
+}
+
+/* lib/css/menu.css */
+.menu {
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: height 0.3s ease-in;
+}
+#toggle-menu-btn {
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  z-index: 10;
+}
+
+/* lib/css/after-sections.css */
+.after-sections {
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+  z-index: 10;
+}
+
+/* lib/index.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+}
+.jpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
