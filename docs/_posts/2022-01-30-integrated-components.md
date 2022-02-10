@@ -41,8 +41,8 @@ Use the jpageConfig object to customize the menu:
 <script>
   const jpageConfig = {
     menu: {
-      buttonIconToClose: "x",      // button content when menu is open
-      buttonIconToOpen: "o"        // button content when the menu is closed
+      buttonIconToClose: "x", // button content when menu is open
+      buttonIconToOpen: "o" // button content when the menu is closed
     }
   }
 </script>
