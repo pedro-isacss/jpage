@@ -19,7 +19,7 @@ The Scroller is made up of sections. Therefore, to create a scroller just add th
 Configuring the Scroller:
 
 ```javascript
-const jpageConfigDefault = {
+const jpageConfig = {
   scroller: {
     showControls: true, // whether controls should be shown or not (default is true)
   },
@@ -42,7 +42,7 @@ The Slider is formed by slides and is inside a section of the Scroller. So, to c
 Configuring the Slider:
 
 ```javascript
-const jpageConfigDefault = {
+const jpageConfig = {
   slider: {
     showControls: true, // whether controls should be shown or not (default is true)
   },
