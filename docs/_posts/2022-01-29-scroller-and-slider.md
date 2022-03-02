@@ -22,6 +22,7 @@ Configuring the Scroller:
 const jpageConfig = {
   scroller: {
     showControls: true, // whether controls should be shown or not (default is true)
+    waitingTime: 400    // waiting time for scrolling
   },
 }
 ```
