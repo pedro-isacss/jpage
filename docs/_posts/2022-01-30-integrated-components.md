@@ -22,6 +22,16 @@ If you need to add additional content but you don't want to use either the Scrol
 
 > **Important:** add the After Sections component after all sections!
 
+Use the jpageConfig object to customize the After Sections component:
+
+```html
+<script>
+  afterSections: {
+    menuVisible: false, // if the menu is visible in the after sections component 
+  }
+</script>
+```
+
 <iframe height="390" style="width: 100%;" scrolling="no" title="JPage - After Sections" src="https://codepen.io/ss-pedroisac/embed/MWOoRpm?default-tab=result&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ss-pedroisac/pen/MWOoRpm">
   JPage - After Sections</a> by Pedro Isac (<a href="https://codepen.io/ss-pedroisac">@ss-pedroisac</a>)

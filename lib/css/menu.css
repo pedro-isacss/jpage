@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 100;
   transition: height 0.3s ease-in;
 }
 
@@ -13,5 +13,5 @@
   position: fixed;
   right: 16px;
   top: 16px;
-  z-index: 10;
+  z-index: 100;
 }

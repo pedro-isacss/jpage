@@ -25,3 +25,7 @@ body{
   flex-direction: column;
   overflow: hidden;
 }
+
+.none {
+  display: none;
+}
