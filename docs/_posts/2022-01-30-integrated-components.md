@@ -26,8 +26,10 @@ Use the jpageConfig object to customize the After Sections component:
 
 ```html
 <script>
-  afterSections: {
-    menuVisible: false, // if the menu is visible in the after sections component 
+  scroller: {
+    afterSections: {
+      menuVisible: false, // if the menu is visible in the after sections component 
+    }
   }
 </script>
 ```
