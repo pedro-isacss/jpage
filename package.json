@@ -1,6 +1,6 @@
 {
   "name": "jpage",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "description": "Create websites as slides.",
   "keywords": [
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedro-isacss/jpage.git"
+    "url": "git+https://github.com/psoftme/jpage.git"
   },
-  "author": "Pedro Isac",
+  "author": "Psoft",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pedro-isacss/jpage/issues"
+    "url": "https://github.com/psoftme/jpage/issues"
   },
-  "homepage": "https://github.com/pedro-isacss/jpage#readme",
+  "homepage": "https://github.com/psoftme/jpage#readme",
   "devDependencies": {
     "esbuild": "^0.14.18"
   }

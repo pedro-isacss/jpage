@@ -1,6 +1,6 @@
 ---
 title: Get Started
-author: Pedro Isac
+author: Psoft
 date: 2022-01-28
 category: JPage
 layout: post

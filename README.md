@@ -24,7 +24,7 @@ To use JPage in your project, you must add to it:
 ```
 > replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
 
-**NOTE:**  if you don’t want to use CDN in your project, you can download JPage and use it directly by [clicking here](https://github.com/pedro-isacss/jpage/archive/refs/heads/master.zip).
+**NOTE:**  if you don’t want to use CDN in your project, you can download JPage and use it directly by [clicking here](https://github.com/psoftme/jpage/archive/refs/heads/master.zip).
 
 ## Basic usege
 Creating websites as slides is as simple as:
@@ -44,13 +44,7 @@ Creating websites as slides is as simple as:
 </script>
 ```
 
-To learn more about JPage see the [documentation](https://pedro-isacss.github.io/jpage/).
+To learn more about JPage see the [documentation](https://jpage.psoft.me/).
 
 ## Licence
-JPage is [MIT licensed](https://github.com/pedro-isacss/jpage/blob/master/LICENSE).
-
-## Author
-Hi, my name is Pedro Isac.
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?to=ss.pedroisac@gmail.com&tf=cm)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://bit.ly/ss_pedroisac)
+JPage is [MIT licensed](https://github.com/psoftme/jpage/blob/master/LICENSE).
