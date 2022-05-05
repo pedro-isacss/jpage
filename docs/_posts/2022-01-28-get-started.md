@@ -6,7 +6,7 @@ category: JPage
 layout: post
 ---
 
-## Using CDN
+## JPage with CDN
 To use JPage in your project using CDN, you must add to it:
 
 **CSS**
@@ -21,8 +21,7 @@ To use JPage in your project using CDN, you must add to it:
 
 > replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
 
-## Basic usage
-Creating websites as slides is as simple as:
+Basic usage:
 
 ```html
 <div class="jpage">
@@ -37,4 +36,57 @@ Creating websites as slides is as simple as:
 <script>
   const jpageConfig = {} // Object to configure JPage
 </script>
+```
+
+## JPage with React
+
+Install JPage:
+
+```bash
+npm i jpage
+```
+
+Import CSS and JavaScript do Jpage:
+
+```javascript
+import "jpage/lib/index.css"
+import("jpage/lib/index.js")
+```
+
+If you need to change any default jpage configuration do:
+
+```javascript
+useEffect(() => {
+  window.jpageConfig = {} // Object to configure JPage
+}, [])
+```
+
+Basic usage:
+
+```jsx
+import { useEffect } from 'react';
+
+import "jpage/lib/index.css"
+import("jpage/lib/index.js")
+
+function App() {
+  useEffect(() => {
+    window.jpageConfig = {} // Object to configure JPage
+  }, [])
+  return (
+    <div className="App">
+      <div className="jpage">
+        <div className="section" style={{ backgroundColor: "gray" }}></div>
+        <div className="section">
+          <div className="slider">
+            <div className="slide" style={{ backgroundColor: "black" }}></div>
+            <div className="slide" style={{ backgroundColor: "blue" }}></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
 ```
