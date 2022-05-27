@@ -1,8 +1,8 @@
 # Configurations
 title:            JPage
 longtitle:        JPage | Create websites as slides
-author:            Psoft
-email:            contact@psoft.me
+author:            Pedro Isac
+# email:            contact@psoft.me
 description: >
   JPage is a JavaScript plugin for creating websites as slides.
 

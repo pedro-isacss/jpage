@@ -1,5 +1,5 @@
 # Contributing
-There is a [code of conduct](https://github.com/psoftme/jpage/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+There is a [code of conduct](https://github.com/pedro-isacss/jpage/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Pull Request
 - Fork the project
@@ -7,4 +7,4 @@ There is a [code of conduct](https://github.com/psoftme/jpage/blob/master/CODE_O
 - Create a pull request
 
 ## Issues
-You can also contribute creating [issues](https://github.com/psoftme/jpage/issues).
+You can also contribute creating [issues](https://github.com/pedro-isacss/jpage/issues).

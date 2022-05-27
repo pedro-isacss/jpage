@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/psoftme/jpage.git"
+    "url": "git+https://github.com/pedro-isacss/jpage.git"
   },
-  "author": "Psoft",
+  "author": "Pedro Isac",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psoftme/jpage/issues"
+    "url": "https://github.com/pedro-isacss/jpage/issues"
   },
-  "homepage": "https://github.com/psoftme/jpage#readme",
+  "homepage": "https://github.com/pedro-isacss/jpage#readme",
   "devDependencies": {
     "esbuild": "^0.14.18"
   }

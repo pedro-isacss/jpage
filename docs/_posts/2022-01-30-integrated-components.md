@@ -1,6 +1,6 @@
 ---
 title: Integrated Components
-author: Psoft
+author: Pedro Isac
 date: 2022-01-30
 category: JPage
 layout: post
