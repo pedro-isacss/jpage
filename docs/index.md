@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![npm](https://img.shields.io/npm/v/jpage?color=1c2c4d&style=flat-square&label=version) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?color=1c2c4d&style=flat-square) ![npm](https://img.shields.io/npm/dt/jpage?color=1c2c4d&label=npm&style=flat-square) ![NPM](https://img.shields.io/npm/l/jpage?color=1c2c4d&style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/pedro-isacss/jpage?color=%231c2c4d&style=flat-square)
+![npm](https://img.shields.io/npm/v/jpage?style=flat-square&label=version) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?style=flat-square) ![npm](https://img.shields.io/npm/dt/jpage?label=npm&style=flat-square) ![NPM](https://img.shields.io/npm/l/jpage?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/pedro-isacss/jpage?style=flat-square)
 
 Hey, do you need to create pages as slides? Congratulations, you've come to the right place. 
 
