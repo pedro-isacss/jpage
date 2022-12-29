@@ -21,6 +21,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "cd docs && bundle exec jekyll serve --livereload --watch",
+    "docs-build": "cd docs && JEKYLL_ENV=production bundle exec jekyll b",
     "minify": "npx esbuild lib/index.js --bundle --minify --outfile=lib/index.min.js && npx esbuild lib/index.css --bundle --outfile=lib/index.min.css"
   },
   "repository": {
