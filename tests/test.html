@@ -23,7 +23,7 @@
       <div class="section" style="background-color: crimson">
         <!-- Your content -->
       </div>
-      <div class="section" style="background-color: crimson">
+      <div class="section" style="background-color: orangered">
         <!-- Your content -->
       </div>
       <div class="section">
@@ -154,11 +154,15 @@
     </div>
     <script src="../lib/index.js" type="module"></script>
     <script>
-      // const jpageConfig = {
-      //   slider: {
-      //     showControls: false,
-      //   },
-      // };
+      const jpageConfig = {
+        scroller: {
+          showControls: false, // whether controls should be shown or not
+          // waitingTime: 5000, // waiting time for scrolling
+        },
+        slider: {
+          showControls: true, // whether controls should be shown or not
+        },
+      };
     </script>
   </body>
 </html>
