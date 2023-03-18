@@ -4,7 +4,7 @@ layout: home
 
 ![npm](https://img.shields.io/npm/v/jpage?style=flat-square&label=version) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/jpage?style=flat-square) ![npm](https://img.shields.io/npm/dt/jpage?label=npm&style=flat-square) ![NPM](https://img.shields.io/npm/l/jpage?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/pedro-isacss/jpage?style=flat-square)
 
-Hey, do you need to create pages as slides? Congratulations, you've come to the right place. 
+Hey, do you need to create sites as slides? Congratulations, you've come to the right place.
 
 JPage is an [open source](https://github.com/pedro-isacss/jpage) project that will help you create websites as slides in an easy and fast way.
 
@@ -14,11 +14,12 @@ JPage is an [open source](https://github.com/pedro-isacss/jpage) project that wi
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-* * *
+---
 
 ### More details
 
 <!-- - Contact: [contact@psoft.me](mailto:contact@psoft.me) -->
+
 - GitHub: [https://github.com/pedro-isacss/jpage](https://github.com/pedro-isacss/jpage)
 - NPM: [https://www.npmjs.com/package/jpage](https://www.npmjs.com/package/jpage)
 - jsDelivr: [https://www.jsdelivr.com/package/npm/jpage](https://www.jsdelivr.com/package/npm/jpage)

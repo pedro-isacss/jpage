@@ -10,10 +10,12 @@ Scroller and Slider are the two main components of JPage. The Scroller is respon
 
 ## Scroller
 
-The Scroller is made up of sections. Therefore, to create a scroller just add the ***section*** class to a container:
+The Scroller is made up of sections. Therefore, to create a scroller just add the **_section_** class to a container:
 
 ```html
-<div class="section"> <!-- Your content --> </div>
+<div class="section">
+  <!-- Your content -->
+</div>
 ```
 
 Configuring the Scroller:
@@ -21,10 +23,11 @@ Configuring the Scroller:
 ```javascript
 const jpageConfig = {
   scroller: {
-    showControls: true, // whether controls should be shown or not (default is true)
-    waitingTime: 400    // waiting time for scrolling
+    showControls: true, // whether controls should be shown or not
+    waitingTime: 400, // waiting time for scrolling
+    duration: 700, //scroll duration time
   },
-}
+};
 ```
 
 ## Slider
@@ -34,8 +37,12 @@ The Slider is formed by slides and is inside a section of the Scroller. So, to c
 ```html
 <div class="section">
   <div class="slider">
-    <div class="slide"> <!-- Your content --> </div>
-    <div class="slide"> <!-- Your content --> </div>
+    <div class="slide">
+      <!-- Your content -->
+    </div>
+    <div class="slide">
+      <!-- Your content -->
+    </div>
   </div>
 </div>
 ```
@@ -45,7 +52,8 @@ Configuring the Slider:
 ```javascript
 const jpageConfig = {
   slider: {
-    showControls: true, // whether controls should be shown or not (default is true)
+    showControls: true, // whether controls should be shown or not
+    duration: 700, //slider duration time
   },
-}
+};
 ```
