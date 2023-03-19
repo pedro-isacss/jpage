@@ -20,7 +20,7 @@ To use JPage in your project, you must add to it:
   type="module"
 ></script>
 ```
-> replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage)).
+> replace {version} with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage?activeTab=versions)).
 
 **NOTE:**  if you don’t want to use CDN in your project, you can download JPage and use it directly by [clicking here](https://github.com/pedro-isacss/jpage/archive/refs/heads/master.zip).
 
@@ -29,11 +29,17 @@ Creating websites as slides is as simple as:
 
 ```html
 <div class="jpage">
-  <div class="section" style="background-color: crimson;"> <!-- Your content --> </div>
+  <div class="section" style="background-color: crimson;">
+    <!-- Your content -->
+  </div>
   <div class="section">
     <div class="slider">
-      <div class="slide" style="background-color: brown;"> <!-- Your content --> </div>
-      <div class="slide" style="background-color: dimgray;"> <!-- Your content --> </div>
+      <div class="slide" style="background-color: brown;">
+        <!-- Your content -->
+      </div>
+      <div class="slide" style="background-color: dimgray;">
+        <!-- Your content -->
+      </div>
     </div>
   </div>
 </div>
