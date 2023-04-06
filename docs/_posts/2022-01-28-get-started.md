@@ -6,8 +6,6 @@ category: JPage
 layout: post
 ---
 
-## Get Started with JPage
-
 To start using JPage, you need to embed the JavaScript and CSS code on your website. You can do this using the jsDelivr CDN as shown below:
 
 **CSS**

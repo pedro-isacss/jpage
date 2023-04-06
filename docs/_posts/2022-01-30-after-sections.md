@@ -1,14 +1,10 @@
 ---
-title: Additional Components
+title: After Sections
 author: Pedro Isac
 date: 2022-01-30
 category: JPage
 layout: post
 ---
-
-In addition to the scrollbar and slider, JPage also provides some other components.
-
-## After Sections
 
 If you need to add additional content but you don't want to use either the Scroller or the Slider, then you can use After Sections.
 
