@@ -10,11 +10,11 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   overflow: hidden;
 }
 
-body{
+body {
   overflow: hidden;
 }
 
@@ -24,6 +24,17 @@ body{
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+}
+
+.jpage-scroll-progress {
+  width: 0;
+  height: 6px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transition: 0.6s linear width;
+  /* animation: jpage-scroll-progress-animation 0.6s linear 0 1; */
 }
 
 .none {
