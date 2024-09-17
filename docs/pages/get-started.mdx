@@ -1,4 +1,10 @@
-To start using JPage, you need to embed the JavaScript and CSS code on your website. You can do this using the jsDelivr CDN as shown below:
+## How Does It Work?
+
+To start using **JPage**, you need to include both the JavaScript and CSS files in your project. This can easily be done by embedding the necessary resources via the **jsDelivr** CDN. Follow the steps below to integrate JPage into your website.
+
+## Step 1: Include the JPage CSS and JavaScript Files
+
+Use the following code to include the **CSS** and **JavaScript** files from the CDN.
 
 **CSS**
 
@@ -9,7 +15,7 @@ To start using JPage, you need to embed the JavaScript and CSS code on your webs
 />
 ```
 
-**JAVASCRIPT**
+**JavaScript**
 
 ```html
 <script
@@ -18,22 +24,22 @@ To start using JPage, you need to embed the JavaScript and CSS code on your webs
 ></script>
 ```
 
-> replace `{version}` with the desired version (you can consult all versions of JPage by [clicking here](https://www.npmjs.com/package/jpage?activeTab=versions)).
+> replace `{version}` with the desired version number (you can check all available versions of JPage by [clicking here](https://www.npmjs.com/package/jpage?activeTab=versions)).
 
-## Basic usage
+## Step 2: Basic Usage
 
 ```html
 <div class="jpage">
   <div class="section" style="background-color: crimson;">
-    <!-- Your content -->
+    <!-- Your content for Section 1 -->
   </div>
   <div class="section">
     <div class="slider">
       <div class="slide" style="background-color: brown;">
-        <!-- Your content -->
+        <!-- Your content for Slide 1 in Section 2 -->
       </div>
       <div class="slide" style="background-color: dimgray;">
-        <!-- Your content -->
+        <!-- Your content for Slide 2 in Section 2 -->
       </div>
     </div>
   </div>
@@ -42,3 +48,8 @@ To start using JPage, you need to embed the JavaScript and CSS code on your webs
   const jpageConfig = {}; // Object to configure JPage
 </script>
 ```
+
+In this example, you create two sections:
+
+- The first section has a single slide with a red background.
+- The second section includes a slider with two slides, one brown and one gray.

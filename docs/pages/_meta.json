@@ -1,5 +1,7 @@
 {
   "index": "About",
   "get-started": "Get Started",
-  "components": "Components"
+  "scroller-and-slider": "Scroller and Slider",
+  "after-sections": "After Sections",
+  "the-jpageconfig-object": "The jpageConfig Object"
 }

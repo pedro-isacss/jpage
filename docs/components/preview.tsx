@@ -2,7 +2,7 @@ function PreviewJpage() {
   return (
     <iframe
       height={400}
-      style={{width: "100%"}}
+      style={{width: "100%", marginTop: 24}}
       scrolling="no"
       title="JPage - Docs"
       src="https://codepen.io/ss-pedroisac/embed/wvPGqPV?default-tab=html%2Cresult"

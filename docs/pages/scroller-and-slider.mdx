@@ -1,0 +1,58 @@
+**Scroller** and **Slider** are the two main components of JPage. The Scroller is responsible for vertical scrolling, while the Slider handles horizontal scrolling.
+
+## Scroller
+
+The Scroller is composed of sections. To create a Scroller, simply add the `section` class to a container:
+
+```html
+<div class="section">
+  <!-- Your content -->
+</div>
+```
+
+You can customize the Scroller's behavior by defining the following options in the configuration object:
+
+```javascript
+const jpageConfig = {
+  scroller: {
+    showControls: true, // Whether controls should be shown or not
+    waitingTime: 400, // Waiting time for scrolling (in milliseconds)
+    duration: 700, // Scroll duration time (in milliseconds)
+  },
+};
+```
+
+- **showControls**: If set to `true`, navigation controls will be displayed.
+- **waitingTime**: The time to wait before starting the scroll action after a user interaction.
+- **duration**: The time it takes for the scroll animation to complete.
+
+## Slider
+
+The Slider consists of slides and is placed within a section of the Scroller. To create a Slider, use the following structure:
+
+```html
+<div class="section">
+  <div class="slider">
+    <div class="slide">
+      <!-- Your content -->
+    </div>
+    <div class="slide">
+      <!-- Your content -->
+    </div>
+  </div>
+</div>
+```
+
+Similar to the Scroller, you can customize the Slider by specifying options in the configuration object:
+
+```javascript
+const jpageConfig = {
+  slider: {
+    showControls: true, // Whether controls should be shown or not
+    duration: 700, // Slider duration time (in milliseconds)
+  },
+};
+```
+
+- **showControls**: If set to `true`, navigation controls for the slides will be displayed.
+- **duration**: The time it takes for the slide transition animation to complete.
