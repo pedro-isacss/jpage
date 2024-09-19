@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+require('dotenv').config();
 
 const config: Config = {
   title: 'JPage',
@@ -20,10 +21,13 @@ const config: Config = {
     [
       'classic',
       {
+        gtag: {
+          trackingID: process.env.GOOGLE_ANALYTICS,
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pedro-isacss/jpage/tree/master/docs',
         },
         blog: {
           showReadingTime: true,
@@ -32,7 +36,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jpage/tree/master/docs',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
