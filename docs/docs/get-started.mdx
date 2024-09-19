@@ -1,0 +1,62 @@
+---
+title: Get Started
+sidebar_position: 20
+---
+
+#
+
+## How Does It Work?
+
+To start using **JPage**, you need to include both the JavaScript and CSS files in your project. This can easily be done by embedding the necessary resources via the **jsDelivr** CDN. Follow the steps below to integrate JPage into your website.
+
+## Step 1: Include the JPage CSS and JavaScript Files
+
+Use the following code to include the **CSS** and **JavaScript** files from the CDN.
+
+**CSS**
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.css"
+/>
+```
+
+**JavaScript**
+
+```html
+<script
+  src="https://cdn.jsdelivr.net/npm/jpage@{version}/lib/index.min.js"
+  type="module"
+></script>
+```
+
+> replace `{version}` with the desired version number (you can check all available versions of JPage by [clicking here](https://www.npmjs.com/package/jpage?activeTab=versions)).
+
+## Step 2: Basic Usage
+
+```html
+<div class="jpage">
+  <div class="section" style="background-color: crimson;">
+    <!-- Your content for Section 1 -->
+  </div>
+  <div class="section">
+    <div class="slider">
+      <div class="slide" style="background-color: brown;">
+        <!-- Your content for Slide 1 in Section 2 -->
+      </div>
+      <div class="slide" style="background-color: dimgray;">
+        <!-- Your content for Slide 2 in Section 2 -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const jpageConfig = {}; // Object to configure JPage
+</script>
+```
+
+In this example, you create two sections:
+
+- The first section has a single slide with a red background.
+- The second section includes a slider with two slides, one brown and one gray.

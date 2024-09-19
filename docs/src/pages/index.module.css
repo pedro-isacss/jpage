@@ -8,6 +8,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: calc(100vh - 60px);
+  background-color: #1B1B1D;
+}
+
+.hero__title,
+.hero__subtitle {
+  color: #eee;
 }
 
 @media screen and (max-width: 996px) {
