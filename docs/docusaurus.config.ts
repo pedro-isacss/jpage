@@ -65,6 +65,11 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
+          position: 'left',
+          label: 'Templates',
+          href: "/templates"
+        },
+        {
           href: 'https://github.com/pedro-isacss/jpage',
           label: 'GitHub',
           position: 'right',
